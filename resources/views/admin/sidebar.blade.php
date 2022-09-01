@@ -67,6 +67,13 @@
         </a>
       </li>
 
+      <li class="menu-item @if($link=='Pemrograman Test Logic') active @endif">
+        <a href="{{url('pemrograman')}}" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-dock-top"></i>
+          <div data-i18n="Account Settings">Pemrograman Test Logic</div>
+        </a>
+      </li>
+
 
    
     </ul>

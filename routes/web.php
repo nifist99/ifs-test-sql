@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/','DashboardController@index');
 Route::get('result','DashboardController@result');
+Route::get('pemrograman','DashboardController@pemrograman');
 
 //branch-category
 Route::get('branch-category','BranchCategoryController@index');

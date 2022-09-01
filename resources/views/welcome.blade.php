@@ -11,8 +11,13 @@
                 <p class="mb-4">
                   SQL DAN RELASI DATABASE TEST
                 </p>
+                <h3>Link Github SQL Test</h3>
 
-                <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Test</a>
+                <a href="https://github.com/nifist99/ifs-test-sql.git" target="_blank" class="btn btn-sm btn-outline-primary">https://github.com/nifist99/ifs-test-sql.git</a>
+                
+                <h3 class="mt-5">Link Logic Programming Test</h3>
+
+                <a href="https://github.com/nifist99/ifs-test-logic-programming.git" target="_blank" class="btn btn-sm btn-outline-primary">https://github.com/nifist99/ifs-test-logic-programming.git</a>
               </div>
             </div>
             <div class="col-sm-5 text-center text-sm-left">

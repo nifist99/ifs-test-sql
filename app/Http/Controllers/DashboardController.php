@@ -20,6 +20,12 @@ class DashboardController extends Controller
         return view('welcome',$data);
     }
 
+    public function pemrograman(){
+        $data['name']='Pemrograman Test Login';
+        $data['link']='Pemrograman Test Login';
+        return view('pemrograman',$data);
+    }
+
     public function result(){
         $data['list']=Result::listData();
         $data['sales']=Result::listDataSales();
