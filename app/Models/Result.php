@@ -33,4 +33,28 @@ class Result extends Model
         
         return $check;
     }
+
+    public static function soal4(){
+        $check = Sales::where('id',1)->first();
+
+        return $check;
+    }
+
+    public static function soal5(){
+        $check = Sales::where('id',2)->get();
+
+        return $check;
+    }
+
+    public static function soal6(){
+        $check = Branch::where('branch_id','P00%')->get();
+
+        return $check;
+    }
+
+    public static function soal7(){
+        $check = Branch::where('branch_id','like','P00%')->get();
+
+        return $check;
+    }
 }

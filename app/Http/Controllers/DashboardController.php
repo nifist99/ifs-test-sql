@@ -23,6 +23,10 @@ class DashboardController extends Controller
     public function result(){
         $data['list']=Result::listData();
         $data['sales']=Result::listDataSales();
+        $data['soal4']=Result::soal4();
+        $data['soal5']=Result::soal5();
+        $data['soal6']=Result::soal6();
+        $data['soal7']=Result::soal7();
         $data['name']='Result';
         $data['link']='Result';
         return view('result',$data);
